@@ -1,0 +1,6 @@
+**/.vscode
+**/build
+**/.clang-format
+**/cmake-build-debug
+**/.idea
+**/.cache
