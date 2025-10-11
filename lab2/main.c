@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <sys/time.h>
 
 #include <pthread.h>
@@ -153,7 +152,7 @@ int main(int argc, char** argv) {
         return 1;
     }
     if (length > rows_matrix || width > cols_matrix) {
-        printf("Size the window must be less then matrix");
+        printf("Size the window must be less then matrix\n");
         return 1;
     }
 

@@ -8,4 +8,4 @@ include_directories(include)
 add_executable(lab2
         include/generate_test.h
         src/generate_test.c
-        src/main.c)
+        main.c)
